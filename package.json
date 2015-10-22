@@ -10,16 +10,20 @@
     "karma.start": "karma start",
     "postinstall": "tsd reinstall --clean && tsd link && tsd rebundle",
     "tsd": "tsd",
-    "jspm.inject": "jspm bundle app dist/dev/main.js --inject",
+    "jspm.inject": "jspm bundle app dev/main.js --inject",
     "jspm.min": "jspm bundle app dist/dev/main.min.js --minify",
     "jspm.sfx": "jspm bundle-sfx app dist/dev/main.sfx.js"
   },
   "jspm": {
     "configFile": "system.config.js",
     "dependencies": {
+      "ModuleLoader/es6-module-loader": "github:ModuleLoader/es6-module-loader@^0.17.8",
       "angular2": "npm:angular2@2.0.0-alpha.44",
+      "css": "github:systemjs/plugin-css@^0.1.19",
       "es6-shim": "github:es-shims/es6-shim@^0.33.6",
+      "raw": "github:matthewbauer/plugin-raw@^1.0.0",
       "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "text": "github:systemjs/plugin-text@^0.0.2",
       "twbs/bootstrap-sass": "github:twbs/bootstrap-sass@^3.3.5",
       "zone.js": "npm:zone.js@^0.5.8"
     },
@@ -61,5 +65,8 @@
     "typescript": "~1.6.2",
     "typescript-register": "^1.1.0",
     "typescript-require": "0.2.7"
+  },
+  "dependencies": {
+    "grunt-bytesize": "^0.1.1"
   }
 }

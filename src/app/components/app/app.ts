@@ -9,8 +9,8 @@ import {NameList} from '../../services/name_list';
 @Component({
   selector: 'app',
   viewBindings: [NameList],
-  templateUrl: './components/app/app.html',
-  styleUrls: ['./components/app/app.css'],
+  templateUrl: './app/components/app/app.html',
+  styleUrls: ['./app/components/app/app.css'],
   encapsulation: ViewEncapsulation.None,
   directives: [ROUTER_DIRECTIVES]
 })

@@ -4,7 +4,7 @@ html(lang='en')
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
         title My Angular 2 App
-        base(href!='<%= APP_BASE %>')
+        base(href=baseHref)
         meta(name='description', content='')
         meta(name='viewport', content='width=device-width, initial-scale=1')
         // injector:css
@@ -15,7 +15,4 @@ html(lang='en')
         // injector:js
         // endinjector
         script.
-            System.import('main')
-                .catch(function (e) {
-                    console.error(e);
-                });
+            System.import('app/init').catch(function (e) { console.error(e); });

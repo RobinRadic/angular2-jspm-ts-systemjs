@@ -1,14 +1,20 @@
+Angular 2 - Typescript - SystemJS - JSPM - Grunt 
+==============
 
-### Stuff used
-Angular 2
-SystemJS + jspm
-Typescript 
-Grunt
-Jade 
-SCSS
+And jade.. and scss..
+
+## Install
+- `git clone https://github.com/robinradic/angular2-jspm-ts-systemjs a2jspm`
+- `cd a2jspm`
+- `npm install`
+- `jspm install`
+- `tsd install`
 
 
-### Remarks
+##### Gruntfile.ts
+The [RobinRadic/grunt-cli](https://github.com/RobinRadic/grunt-cli) fork has `liftoff` and `interpret` implemented, so it'll load `Gruntfile.ts` like its javascript.
+
+
 
 ##### Jade - Removing brackets
 
