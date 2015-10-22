@@ -36,4 +36,6 @@ dist
 dev
 lib
 test
-tools/typings/tsd
+build/typings/tsd
+.tscache
+tmp

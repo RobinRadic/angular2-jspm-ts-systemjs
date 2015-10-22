@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        title My Angular 2 App
+        base(href!='<%= APP_BASE %>')
+        meta(name='description', content='')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        // injector:css
+        // endinjector
+        link(href='assets/styles/stylesheet.css', rel='stylesheet')
+    body
+        app Loading...
+        // injector:js
+        // endinjector
+        script.
+            System.import('main')
+                .catch(function (e) {
+                    console.error(e);
+                });

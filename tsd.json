@@ -2,28 +2,16 @@
   "version": "v4",
   "repo": "borisyankov/DefinitelyTyped",
   "ref": "master",
-  "path": "build/typings/tsd",
-  "bundle": "build/typings/tsd/tsd.d.ts",
+  "path": "typings/tsd",
+  "bundle": "typings/tsd/tsd.d.ts",
   "installed": {
     "fs-extra/fs-extra.d.ts": {
       "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
     },
     "node/node.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
+      "commit": "44cbde48eecd1918ed54b3be49a9752688b6c65a"
     },
     "lodash/lodash.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "gulp-shell/gulp-shell.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "orchestrator/orchestrator.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "gulp/gulp.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "q/Q.d.ts": {
       "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
     },
     "systemjs/systemjs.d.ts": {
@@ -32,29 +20,11 @@
     "async/async.d.ts": {
       "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
     },
-    "serve-static/serve-static.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "mime/mime.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "express/express.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "yargs/yargs.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "del/del.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "glob/glob.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
-    "minimatch/minimatch.d.ts": {
-      "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
-    },
     "es6-promise/es6-promise.d.ts": {
       "commit": "418ef25d7f814ac2544ee65726b86bf929260212"
+    },
+    "gruntjs/gruntjs.d.ts": {
+      "commit": "44cbde48eecd1918ed54b3be49a9752688b6c65a"
     }
   }
 }
